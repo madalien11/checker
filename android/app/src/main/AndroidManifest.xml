@@ -8,8 +8,12 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flash_chat"
+        android:label="flash_chaaaaaat"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA6NGG_Wkzsmec6liJ5RSg8rFoTnsuSo74"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
